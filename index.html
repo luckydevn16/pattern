@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern 2022</title>
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/fonts/tahoma/stylesheet.css">
+<body>
+    <div class="main-wrapper">
+        <header class="header">
+            <img src="assets/img/svg/logo.svg" onclick="scrollToElem('.main')" alt="logo" class="logo" loading="lazy">
+        </header>
+        <main class="main">
+            <section class="hero-section">
+                <div class="container flex justify-between">
+                    <div class="video-wrapper">
+                        <h1 class="main-heading">
+                            Obtenga acceso instantáneo al software de PatternTrader, 
+                            <span class="text-colored">¡y gane de 2200€ al día!</span>
+                            <img src="assets/img/spain.png" alt="spain" width="40" height="40" class="flag" loading="lazy">
+                        </h1>
+                        <div class="video">
+                            <video width="100%" controls controlsList="nodownload" playsinline loop poster="assets/video/poster.png"></video>
+                            <div class="play-btn"></div>
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <h3 class="form-heading">
+                            Regístrate para conseguir mejores hábitos de dinero
+                        </h3>
+                        <form action="thankyou.html" class="form" onsubmit="event.preventDefault(); formSubmission()">
+                            <div class="input-wrap">
+                                <input type="text" class="form-input name" placeholder="Su nombre">
+                            </div>
+                            <div class="input-wrap">
+                                <input type="text" class="form-input lastname" placeholder="Tu apellido">
+                            </div>
+                            <div class="input-wrap">
+                                <input type="text" class="form-input email" placeholder="Tu correo electrónico">
+                            </div>
+                            <div class="input-wrap">
+                                <input type="text" class="form-input phone" placeholder="Su número de teléfono">
+                            </div>
+                            <div class="required-fields">
+                                Porfavor llene todos los campos
+                            </div>
+                            <div class="input-wrap">
+                                <button class="btn alert-btn">Empieza ahora</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="steps-section flex justify-center">
+                <div class="steps-item first flex center" onclick="scrollToElem('.video')">
+                    <img src="assets/img/keycap-1.png" alt="one" class="step-number-img" loading="lazy">
+                    <p class="steps-item-text">
+                        CONSIGUE tu enlace personal y ve el vídeo.
+                    </p>
+                </div>
+                <div class="steps-item second flex center" onclick="scrollToElem('#form-wrapper')">
+                    <img src="assets/img/keycap-2.png" alt="two" class="step-number-img" loading="lazy">
+                    <p class="steps-item-text">
+                        COMERCIA a través de nuestro software y disfruta de los beneficios gratuitos.
+                    </p>
+                </div>
+            </section>
+            <section class="benefits-section">
+                <div class="container">
+                    <h2 class="section-heading animated">
+                        ¿Por qué PatternTrader tiene tanto éxito?
+                    </h2>
+                    <div class="cards-wrapper flex justify-between">
+                        <div class="benefits-card animated">
+                            <img src="assets/img/chart.png" alt="chart" class="benefits-card-img" loading="lazy">
+                            <h3 class="card-heading">
+                                Algoritmo exhaustivo
+                            </h3>
+                            <p class="card-text">
+                                el algoritmo de PatternTrader analiza más de cincuenta aspectos cuando busca nuevas transacciones.
+                            </p>
+                        </div>
+                        <div class="benefits-card animated">
+                            <img src="assets/img/robot.png" alt="robot" class="benefits-card-img" loading="lazy">
+                            <h3 class="card-heading">
+                                Análisis de mercado en tiempo real
+                            </h3>
+                            <p class="card-text">
+                                PatternTrader se actualiza cada segundo para poder ofrecer las mejores oportunidades posibles de comercio en línea.
+                            </p>
+                        </div>
+                        <div class="benefits-card animated">
+                            <img src="assets/img/user-with-laptop.png" alt="user-with-laptop" class="benefits-card-img" loading="lazy">
+                            <h3 class="card-heading">
+                                Trabaja con patrones
+                            </h3>
+                            <p class="card-text">
+                                nuestro algoritmo está ajustado especialmente para ejecutar los patrones de transacciones que aparecen en los mercados financieros.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="action-section">
+                <div class="container">
+                    <h2 class="section-heading animated">
+                        El software funciona en todas las plataformas principales y en todas las pantallas
+                    </h2>
+                    <div class="action-img-wrapper">
+                        <img src="assets/img/Macbook.png" alt="device" class="device-img animated" loading="lazy">
+                        <button class="btn animated" onclick="scrollToElem('#form-wrapper')">
+                            <span>Empieza ahora</span>
+                        </button>
+                    </div>
+                </div>
+                <img src="assets/img/svg/decor.svg" alt="decor" class="action-decor left">
+                <img src="assets/img/svg/decor.svg" alt="decor" class="action-decor right">
+            </section>
+            <section class="reviews-section">
+                <div class="container">
+                    <h2 class="section-heading animated">
+                        Lo que nuestros usuarios experimentaron con PatternTrader
+                    </h2>
+                    <div class="cards-wrapper flex justify-between">
+                        <div class="reviews-card animated">
+                            <div class="card-header flex center">
+                                <div class="reviewer-img-wrapper">
+                                    <img src="assets/img/user-001.png" alt="user" class="reviewer-img" loading="lazy">
+                                    <img src="assets/img/svg/shield.svg" alt="shield" class="shield-img" loading="lazy">
+                                </div>
+                                <div class="reviewer-info">
+                                    <h3 class="card-heading">Sancho Marco</h3>
+                                    <p class="reviewer-city">Madrid</p>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                “La primera solución para el comercio en línea que realmente me funciona. Comencé con tan solo 250€ y ahora tengo más de 4560€ en mi cuenta.”
+                            </div>
+                        </div>
+                        <div class="reviews-card animated">
+                            <div class="card-header flex center">
+                                <div class="reviewer-img-wrapper">
+                                    <img src="assets/img/user-002.png" alt="user" class="reviewer-img" loading="lazy">
+                                    <img src="assets/img/svg/shield.svg" alt="shield" class="shield-img" loading="lazy">
+                                </div>
+                                <div class="reviewer-info">
+                                    <h3 class="card-heading">Antonio Benito</h3>
+                                    <p class="reviewer-city">Barcelona</p>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                “Probé muchos software para comenzar a hacer transacciones, pero todos fueron un gran fracaso. No me rendí y finalmente gané dinero con PatternTrader. ¡Gracias!”
+                            </div>
+                        </div>
+                        <div class="reviews-card animated">
+                            <div class="card-header flex center">
+                                <div class="reviewer-img-wrapper">
+                                    <img src="assets/img/user-003.png" alt="user" class="reviewer-img" loading="lazy">
+                                    <img src="assets/img/svg/shield.svg" alt="shield" class="shield-img" loading="lazy">
+                                </div>
+                                <div class="reviewer-info">
+                                    <h3 class="card-heading">Bernarda Leandra</h3>
+                                    <p class="reviewer-city">Granada</p>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                “¡Es increíble! Pude convertir 250€ en miles de euros sin ninguna experiencia en comercio en línea. ¡¿Cómo es posible?!”
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="form-section">
+                <div class="form-wrapper animated" id="form-wrapper">
+                    <h3 class="form-heading">
+                        Regístrate para conseguir mejores hábitos de dinero
+                    </h3>
+                    <form action="thankyou.html" class="form" onsubmit="event.preventDefault(); formSubmission()">
+                        <div class="input-wrap">
+                            <input type="text" class="form-input name" placeholder="Su nombre">
+                        </div>
+                        <div class="input-wrap">
+                            <input type="text" class="form-input lastname" placeholder="Tu apellido">
+                        </div>
+                        <div class="input-wrap">
+                            <input type="text" class="form-input email" placeholder="Tu correo electrónico">
+                        </div>
+                        <div class="input-wrap">
+                            <input type="text" class="form-input phone" placeholder="Su número de teléfono">
+                        </div>
+                        <div class="required-fields">
+                            Porfavor llene todos los campos
+                        </div>
+                        <div class="input-wrap">
+                            <button class="btn alert-btn">Empieza ahora</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container flex center justify-between">
+                <p class="footer-copyright animated">
+                    <span class="text-colored" onclick="scrollToElem('.main')">PatternTrader</span> © <span class="current-year">2022</span>. Reservados todos los derechos.
+                </p>
+                <div class="footer-policies animated">
+                    <a href="javascript:void(0)" class="alterlink">Términos de Uso</a>
+                    <a href="javascript:void(0)" class="alterlink">Política de privacidad</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/main.js"></script>
+</head>
+</body>
+</html>

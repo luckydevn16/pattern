@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Felicidades!</title>
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+</head>
+
+<body>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box
+            }
+            body {
+                width: 100%;
+                min-height: 100vh;
+                padding: 2rem 0;
+                overflow-x: hidden;
+                display: grid;
+                place-items: center center;
+                background-color: #333;
+                background: url('assets/img/hero-bg.jpg') no-repeat center / cover;
+                font-family: 'Montserrat', sans-serif;
+            }
+            .container {
+                width: 90%;
+                max-width: 800px;
+                margin: 0 auto;
+                color: #333;
+                text-align: center;
+            }
+            .logo-img {
+                display: block;
+                width: 90%;
+                max-width: 300px;
+                margin: 0 auto;
+            }
+            h2 {
+                font-size: 2rem;
+                text-align: center;
+                margin: 1rem 0;
+                font-weight: 800;
+            }
+            p {
+                font-size: 1.2rem;
+                text-align: center;
+                font-weight: 300;
+                line-height: 150%
+            }
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto 0 auto;
+    background-color: #00BC00;
+    height: 3.5rem;
+    padding: 0 4rem;
+    max-width: 25rem;
+    font-family: 'Tahoma', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .2s;
+}
+.btn:hover {
+    opacity: .9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+}
+.btn:active {
+    opacity: .5;
+}
+        </style>
+        <div class="container">
+            <img src="assets/img/svg/logo.svg" alt="logo" class="logo-img">
+            <h2>¡Gracias por registrarte!</h2>
+            <p>En unos minutos, nuestro gerente se comunicará con usted y le proporcionará todos los derechos de acceso al sistema.</p>
+            <a href="index.html" class="btn">OK!</a>
+        </div>
+</body>
+
+</html>
